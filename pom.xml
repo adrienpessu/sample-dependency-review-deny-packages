@@ -8,8 +8,9 @@
 
 	<dependencies>
 		<dependency>
-	<groupId>cloud.altemista.fwk.jwt</groupId>
-	<artifactId>cloud-altemistafwk-app-jwt-authzsrv-conf</artifactId>
+			<groupId>cloud.altemista.fwk.jwt</groupId>
+			<artifactId>cloud-altemistafwk-app-jwt-authzsrv-conf</artifactId>
+			<version>1.0.0</version>
 		</dependency>
 	</dependencies>
 	
