@@ -14,5 +14,5 @@ jobs:
       - name: 'Dependency Review'
         uses: adrienpessu/dependency-review-action@main
         with:
-          deny-packages: 'org.apache.logging.log4j:log4j-api,org.apache.logging.log4j:log4j-core'
-          deny-groups: 'com.bazaarvoice.jolt'
+          deny-packages: 'pkg:maven/org.apache.logging.log4j/log4j-api,pkg:maven/org.apache.logging.log4j/log4j-core'
+          deny-groups: 'pkg:maven/com.bazaarvoice.jolt'
